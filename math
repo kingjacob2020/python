@@ -1,0 +1,8 @@
+#math
+print('5 + 2 =', 5 + 2) # addition
+print('5 - 2 =', 5 - 2) #subtraction
+print('5 * 2 =', 5 * 2) # multiplacation
+print('5 / 2 =', 5 / 2) #division
+print('5 % 2 =', 5 % 2) # modulus , it gives the remainder of the division
+print('5 ** 2 =', 5 ** 2) # power of
+print('5 // 2 =', 5 // 2) # integer division
