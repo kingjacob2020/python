@@ -34,3 +34,6 @@ print('atanh(0) ',math.atanh(0))
 print('hypot(0) ',math.hypot(10, 10))
 print('radians(0) ', math.radians(0))
 print('degrees(pi) ', math.degrees(math.pi))
+
+#this is a nan (nan = not a number)
+print(math.inf - math.inf)
