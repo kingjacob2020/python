@@ -1,0 +1,24 @@
+import random
+import sys
+import os
+
+super_villains = {'fiddler' : 'isaac bowin',
+                  'captain cold' : 'leonard snart',
+                  'weather wizard' : 'mark mardon',
+                  'mirror master' : 'sam schudder',
+                  'pied piper' : 'thomas peterson'}
+
+print(super_villains['captain cold'])
+
+del super_villains['fiddler']
+ 
+super_villains['pied piper'] = 'hartly rathaway'
+
+print(len(super_villains))
+
+print(super_villains.get('pied piper'))
+
+print(super_villains.keys())
+
+print(super_villains.values())
+ 
