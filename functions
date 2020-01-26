@@ -1,0 +1,10 @@
+import random
+import sys
+import os
+
+def addNumber(fNumber, lNum):
+    sumNum = fNum + lNum
+    return sumNum
+
+print(addNumber(1, 4))
+string = addNumber(1, 4)
