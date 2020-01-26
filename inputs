@@ -1,0 +1,9 @@
+import random
+import sys
+import os
+
+print('waht is your name')
+
+name =sys.stdin.readline()
+
+print('hello' , name)
