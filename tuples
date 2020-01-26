@@ -1,0 +1,15 @@
+import random
+import sys
+import os
+
+pi_tuple = (3,1,4,5,9)
+
+new_tuple = list(pi_tuple)
+new_list = tuple(new_tuple)
+
+#length of tuple
+len(tuple)
+#minimum
+min(tuple)
+#maximum
+max(tuple)
