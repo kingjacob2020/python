@@ -1,0 +1,42 @@
+import random
+import sys
+import os
+
+grocery_list = ['juice','potato','pan','waffles']
+
+print('first item : ',grocery_list[0])
+#changing values
+grocery_list[0] = 'blue juice'
+print('first item :' , grocery_list[0])
+#listing things in the list
+print(grocery_list[1:5])
+
+other_events = ['wash car', 'cash check','reality check']
+#combining lists
+to_do_list = [other_events,grocery_list] 
+
+print(to_do_list)
+
+#selecting things from a list 
+print((to_do_list[1][1]))
+#add to list
+grocery_list.append('onions')
+print(grocery_list)
+
+grocery_list.insert(1, "pickle")
+print(grocery_list)
+#to remove something from a list
+#grocery_list.remove('pickle')
+#print(grocery_list)
+grocery_list.sort() 
+
+grocery_list.reverse()
+
+del grocery_list[4]
+print(grocery_list)
+
+to_do_list2 = other_events + grocery_list
+
+print(len(to_do_list2))
+print(max(to_do_list2))
+print(min(to_do_list2))
